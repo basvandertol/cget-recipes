@@ -1,2 +1,2 @@
-casacore/casacore -DBUILD_PYTHON=OFF -DBUILD_PYTHON3=ON
+casacore/casacore -X build.cmake -DBUILD_PYTHON=OFF -DBUILD_PYTHON3=ON
 

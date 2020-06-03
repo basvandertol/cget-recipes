@@ -1,5 +1,5 @@
 cfitsio
 wcslib
-boost -DBOOST_WITHOUT_PYTHON=0
+boost-python
 
 
