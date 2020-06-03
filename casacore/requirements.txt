@@ -1,3 +1,0 @@
-cfitsio
-wcslib
-boost -DBOOST_WITH_PYTHON=1
