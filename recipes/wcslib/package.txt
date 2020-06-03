@@ -1,2 +1,2 @@
-ftp://ftp.atnf.csiro.au/pub/software/wcslib/wcslib.tar.bz2 --cmake autotools
+ftp://ftp.atnf.csiro.au/pub/software/wcslib/wcslib.tar.bz2 --cmake build.cmake
 
