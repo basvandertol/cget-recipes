@@ -1,4 +1,4 @@
-# cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.0)
 #
 # project(CASACORE C CXX)
 #
@@ -8,6 +8,6 @@
 #     set(SHARED Off CACHE BOOL "")
 # endif()
 
-set(Python3_ROOT_DIR $ENV{PYTHON_ROOT_DIR})
+set(Python3_ROOT_DIR $ENV{PYTHON_ROOT_DIR} CACHE PATH "Python root")
 
 include(${CGET_CMAKE_ORIGINAL_SOURCE_FILE})
