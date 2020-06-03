@@ -1,0 +1,2 @@
+casacore/casacore -DBUILD_PYTHON=OFF -DBUILD_PYTHON3=ON
+
