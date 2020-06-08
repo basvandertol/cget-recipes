@@ -1,2 +1,2 @@
-https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.12/hdf5-1.12.0/src/CMake-hdf5-1.12.0.tar.gz -DHDF5_BUILD_HL_LIB=On -DHDF5_BUILD_CPP_LIB=On -DHDF5_BUILD_TOOLS=On -DHDF5_ENABLE_THREADSAFE=On
+https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.12/hdf5-1.12.0/src/CMake-hdf5-1.12.0.tar.gz --cmake subdir -DCMAKE_DIR=hdf5-1.12.0 -DHDF5_BUILD_HL_LIB=On -DHDF5_BUILD_CPP_LIB=On -DHDF5_BUILD_TOOLS=On -DHDF5_ENABLE_THREADSAFE=On -DALLOW_UNSUPPORTED=1
 
